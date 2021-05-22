@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    
+}
+
+html {
+    height: 100%;
+}
+
+
+    
+
+.gridarea{
+   display: flex;
+   
+                        
+               
+                background: url("IMG/kon-1.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+               
+               
+                 
+               
+  
+ 
+                
+}
+header{
+    
+    width:60%;
+    
+    height: 25vh;
+    margin: 0;
+   
+    
+}
+
+aside{
+    
+    width:40%;
+    height: 100vh;
+    
+}
+
+main{
+    grid-area: "main";
+    position: absolute;
+    top:50px;
+    left:200px;
+    
+}
+
+aside{
+    width: 40%;
+    height: 100vh;
+}
+
+.blueorange__circle{
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 100%;
+    background-color: blue;
+   
+}
+
+.orange{
+    height: 60vh;
+    width: 100%;
+    background-color: orange;
+}
+
